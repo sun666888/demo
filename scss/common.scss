@@ -1,0 +1,110 @@
+.content_page {
+    .table {
+        line-height: 2rem;
+        font-size: 14px;
+        tr {
+            th {
+                text-align: center
+            }
+            td {
+                text-align: center
+            }
+        }
+    }
+    background-color: #fff;
+    min-height: 800px;
+    border: 1px solid #cfd8dc;
+    .content-title { 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: #eceff1;
+        border-bottom: 1px solid #cfd8dc;
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            &-sub {
+                font-size: 14px;
+                font-weight: normal;
+                margin-left: 30px;
+                display: inline-block;
+            }
+        }
+        .controls {
+            float: right;
+            margin-top: -5px;
+            .btn-info {
+                background: #337ab7;
+                border-color: #337ab7;
+            }
+        }
+    }
+    .content-show {
+        padding: 20px;
+        .list-search {
+            padding: 0 15px;
+            .search-field {
+                position: relative;
+                padding-left: 75px;
+                margin-bottom: 1em;
+                &_controls {
+                    padding-left: 0;
+                }
+                .label {
+                    width: 75px;
+                    position: absolute;
+                    left: 0;
+                    text-align: right;
+                }
+                .search-btn {
+                    width: 100%;
+                }
+            }
+        }
+        .list-empty {
+            width: 100%;
+            text-align: center;
+            border: 1px solid #cfd8dc;
+            border-top: none;
+            line-height: 30px;
+            background: #eceff1;
+        }
+        .table {
+            margin-bottom: 0;
+        }
+        .page {
+            margin-top: 1rem;
+            position: relative;
+            .itemCount{
+                position: absolute;
+                right: 0;
+                line-height: 35px;
+            }
+        }
+        .detail-table {
+            border: 1px solid #ddd;
+            border-bottom: none;
+            line-height: 35px;
+            .item {
+                border-bottom: 1px solid #DDD;
+                position: relative;
+                padding-left: 0;
+                .key {
+                    display: block;
+                    width: 75px;
+                    text-align: center;
+                    background-color: #e4e4e4;
+                    position: absolute;
+                }
+                .value {
+                    width: 100%;
+                    text-align: center;
+                    display: block;
+                    padding-left: 75px;
+                }
+            }
+        }
+    }
+}
